@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+
+	<test name="Regresssion Test">
+
+
+		<groups>
+
+			<run>
+
+				<include name="Smoke" />
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<class name="com.testng.Basics_day1"/>
+				<class name="com.testng.day2" />
+				<class name="com.testng.day3" />
+
+		</classes>
+
+	</test>
+
+</suite> 

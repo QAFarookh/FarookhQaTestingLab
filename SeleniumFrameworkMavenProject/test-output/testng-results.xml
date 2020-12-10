@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="369" started-at="2020-12-10T06:25:19Z" finished-at="2020-12-10T06:25:20Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.smoke2()[pri:0, instance:com.testng.day2@2c6a3f77]" name="smoke2" class="com.testng.day2"/>
+        <method signature="day3.smoke3()[pri:0, instance:com.testng.day3@366e2eef]" name="smoke3" class="com.testng.day3"/>
+        <method signature="day3.smoke4()[pri:0, instance:com.testng.day3@366e2eef]" name="smoke4" class="com.testng.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Government Trading Loan" duration-ms="140" started-at="2020-12-10T06:25:19Z" finished-at="2020-12-10T06:25:19Z">
+      <class name="com.testng.day4">
+        <test-method status="PASS" signature="loginApiHomeLoan()[pri:0, instance:com.testng.day4@246ae04d]" name="loginApiHomeLoan" duration-ms="5" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApiHomeLoan -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:com.testng.day4@246ae04d]" name="mobileLoginHomeLoan" duration-ms="5" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.farookhqa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47574114]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="PASS" signature="webLoginHomeLoan()[pri:0, instance:com.testng.day4@246ae04d]" name="webLoginHomeLoan" duration-ms="4" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- com.testng.day4 -->
+      <class name="com.testng.Basics_day1">
+        <test-method status="PASS" signature="demoTest2()[pri:0, instance:com.testng.Basics_day1@1324409e]" name="demoTest2" duration-ms="18" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest2 -->
+      </class> <!-- com.testng.Basics_day1 -->
+      <class name="com.testng.day2">
+        <test-method status="PASS" signature="loanTest()[pri:0, instance:com.testng.day2@2c6a3f77]" name="loanTest" duration-ms="6" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanTest -->
+        <test-method status="PASS" signature="smoke2()[pri:0, instance:com.testng.day2@2c6a3f77]" name="smoke2" duration-ms="3" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke2 -->
+      </class> <!-- com.testng.day2 -->
+    </test> <!-- Government Trading Loan -->
+    <test name="Car Loan" duration-ms="81" started-at="2020-12-10T06:25:19Z" finished-at="2020-12-10T06:25:20Z">
+      <class name="com.testng.Basics_day1">
+        <test-method status="PASS" signature="Exec()[pri:0, instance:com.testng.Basics_day1@1324409e]" name="Exec" is-config="true" duration-ms="1" started-at="2020-12-10T11:55:20Z" finished-at="2020-12-10T11:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exec -->
+      </class> <!-- com.testng.Basics_day1 -->
+      <class name="com.testng.day3">
+        <test-method status="PASS" signature="Suit()[pri:0, instance:com.testng.day3@366e2eef]" name="Suit" is-config="true" duration-ms="53" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suit -->
+        <test-method status="PASS" signature="loginApiCarLoan()[pri:0, instance:com.testng.day3@366e2eef]" name="loginApiCarLoan" duration-ms="2" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApiCarLoan -->
+        <test-method status="PASS" signature="smoke3()[pri:0, instance:com.testng.day3@366e2eef]" name="smoke3" duration-ms="3" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke3 -->
+        <test-method status="PASS" signature="smoke4()[pri:0, instance:com.testng.day3@366e2eef]" name="smoke4" duration-ms="6" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke4 -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.testng.day3@366e2eef]" name="webLoginCarLoan" duration-ms="29" started-at="2020-12-10T11:55:19Z" finished-at="2020-12-10T11:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- com.testng.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

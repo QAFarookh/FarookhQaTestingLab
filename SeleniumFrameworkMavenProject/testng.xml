@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+
+	<listeners>
+		<listener class-name="com.testng.Listners" />
+	</listeners>
+
+	<test name="Government Trading Loan">
+
+		<parameter name="URL" value="www.farookhqa.com" />
+		<parameter name="APIKey/username" value="47574114" />
+		<classes>
+
+			<class name="com.testng.Basics_day1">
+
+				<methods>
+
+					<include name="demoTest2" />
+
+				</methods>
+
+			</class>
+
+
+			<class name="com.testng.day2" />
+			<class name="com.testng.day4" />
+
+		</classes>
+
+	</test>
+
+
+
+	<test name="Car Loan">
+		<classes>
+
+			<class name="com.testng.day3">
+
+				<methods>
+
+					<exclude name="mobile.*" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+
+</suite> 

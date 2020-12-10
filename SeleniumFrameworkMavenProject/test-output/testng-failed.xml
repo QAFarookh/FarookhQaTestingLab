@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <parameter name="APIKey/username" value="47574114"/>
+  <parameter name="URL" value="www.farookhqa.com"/>
+  <listeners>
+    <listener class-name="com.testng.Listners"/>
+  </listeners>
+  <test name="Government Trading Loan">
+    <parameter name="APIKey/username" value="47574114"/>
+    <parameter name="URL" value="www.farookhqa.com"/>
+    <classes>
+      <class name="com.testng.Basics_day1">
+        <methods>
+          <include name="demoTest2"/>
+        </methods>
+      </class> <!-- com.testng.Basics_day1 -->
+      <class name="com.testng.day2"/>
+      <class name="com.testng.day4"/>
+    </classes>
+  </test> <!-- Government Trading Loan -->
+  <test name="Car Loan">
+    <classes>
+      <class name="com.testng.day3">
+        <methods>
+          <exclude name="mobile.*"/>
+        </methods>
+      </class> <!-- com.testng.day3 -->
+    </classes>
+  </test> <!-- Car Loan -->
+</suite> <!-- Failed suite [Loan Department] -->

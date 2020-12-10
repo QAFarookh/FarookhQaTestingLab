@@ -1,0 +1,21 @@
+1) Wap to find larger between two number ?
+2) Wap to find larger between 3 number ?
+3) wap to check even or odd ?
+4) wap to check leap year ?
+5) wap to check year 2100 is a leap year or not ?
+
+Finding a year is a leap or not is a bit tricky. We generally assume that if a year number is evenly divisible by 4 is a leap year. 
+But it is not the only case. A year is a leap year if −
+1. It is evenly divisible by 100
+2. If it is divisible by 100, then it should also be divisible by 400
+3. Except this, all other years evenly divisible by 4 are leap years.
+
+6) Wap to print swap between two numbers ?
+0r 
+Program to Swap Two Numbers With and Without Using Third Variable?
+7) Write a Program to Create Calculator using switch case ?
+8) Write a Program to Create Calculator using switch case bytakking input from user ?
+9) Program to Print Multiplication Table ?
+or  Program to Print Multiplication Table by user input ?
+10) Program to Find the Factorial of the Number ?
+11)
